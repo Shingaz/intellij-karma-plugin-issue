@@ -5,5 +5,5 @@
  */
 
 it('should fail after changing expect to false and running again through the Karma plugin', () => {
-    expect(true).toBe(false);
+    expect(true).toBe(true);
 })
